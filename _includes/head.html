@@ -2,7 +2,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="../favicon-96x96.png">
+  <link rel="icon" type="image/x-icon" href="/favicon-96x96.png">
 
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.data.settings.title }}{% endif %}</title>
   <meta name='description' content='{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.data.settings.description }}{% endif %}'>
@@ -30,6 +30,8 @@
   <link rel="preload" href="https://unpkg.com/ionicons@4.5.0/dist/css/ionicons.min.css" as="style">
   <link href="https://unpkg.com/ionicons@4.5.0/dist/css/ionicons.min.css" rel="stylesheet">
 
+  <!-- syntax css 추가 -->
+  <link rel="stylesheet" href="/assets/css/syntax.css">
   <script>
     {% if site.data.settings.color_scheme == "auto" %}
     if (localStorage.getItem("theme") === "dark") {

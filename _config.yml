@@ -11,6 +11,9 @@ plugins:
 paginate: 12
 paginate_path: "/page/:num"
 
+# 신택스 하이라이터로 루즈를 선택함.
+highlighter: rouge
+
 # Collections
 collections:
   pages:
