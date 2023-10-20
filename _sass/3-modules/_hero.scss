@@ -25,6 +25,12 @@
     }
   }
 
+  @media (min-width: 1301px) {
+    .hero__left {
+      margin-left: 60px;
+    }
+  }
+
   @media (max-width: $tablet) {
     padding: 60px 0;
     margin-bottom: 60px;
@@ -42,6 +48,9 @@
 
   @media (max-width: $mobile) {
     padding: 40px 0;
+    .hero__left {
+      text-align: center;
+    }
   }
 }
 
@@ -78,7 +87,6 @@
     font-weight: 700;
     letter-spacing: -2px;
     color: var(--heading-font-color);
-    margin-left: 30px;
 
     @media (max-width: 1130px) {
       font-size: 40px;
@@ -122,7 +130,6 @@
 
   .hero__description {
     margin: 0;
-    margin-left: 30px;
     font-size: 21px;
     color: var(--text-alt-color);
 
@@ -181,7 +188,7 @@
     width: 100%;
     height: 50%;
     background-image: var(--hero-radial-gradient);
-    background-size: 15px 15px;
+    background-size: 10px 10px;
   }
 
   .hero__image {
