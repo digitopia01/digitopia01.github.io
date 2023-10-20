@@ -6,10 +6,10 @@ color_scheme: auto # Options: auto (default), light, and dark
 menu__settings:
   menu__items:
     - title: "HTML"
-      target: "_blank"
+      target: ""
       url: "html"
     - title: "CSS"
-      target: "_blank"
+      target: ""
       url: "css"
 
 author:
@@ -40,28 +40,20 @@ gallery:
 
 # Social (via https://ionicons.com/v4/)
 social:
-  - {
-      icon: "ion-logo-twitter",
-      name: "Twitter",
-      link: "https://twitter.com/oinam/",
-    }
+  - { icon: "ion-logo-twitter", name: "Twitter", link: "https://twitter.com" }
   - {
       icon: "ion-logo-instagram",
       name: "Instagram",
-      link: "https://www.instagram.com/oinam/",
+      link: "https://www.instagram.com",
     }
   - {
       icon: "ion-logo-youtube",
       name: "Youtube",
-      link: "https://www.youtube.com/@oinam/",
+      link: "https://www.youtube.com",
     }
-  - {
-      icon: "ion-logo-github",
-      name: "Github",
-      link: "https://github.com/oinam/",
-    }
+  - { icon: "ion-logo-github", name: "Github", link: "https://github.com" }
   - {
       icon: "ion-logo-linkedin",
       name: "LinkedIn",
-      link: "https://www.linkedin.com/company/oinam/",
+      link: "https://www.linkedin.com",
     }

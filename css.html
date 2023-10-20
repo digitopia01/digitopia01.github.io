@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+{% include hero.html %}
+
+{% if page.url == "/" %}
+  {% include section-featured-posts.html %}
+{% endif %}
+
+<div class="container animate">
+  <div class="section__head">
+    <h3 class="section__title">CSS</h3>
+  </div>
+  <div class="row">
+    {% for post in site.posts %}
+      {% if post.categories contains 'css' %}
+        {% include article.html %}
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
+
+{% include pagination.html %}
+{% include section-tags.html %}
