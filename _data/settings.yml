@@ -1,45 +1,67 @@
-title: 'Oinam Stories'
-# logo: '/assets/oinam-logotype.png'
-description: 'Stories about kids, parenting, and fun things at Oinam.'
+title: "Digitopia01"
+logo: "/assets/image/headerlogo.png"
+description: "digitopia01's engineering blog"
 color_scheme: auto # Options: auto (default), light, and dark
 
 menu__settings:
   menu__items:
-    - title: 'Contact'
-      target: '_blank'
-      url: 'https://oinam.com/contact/'
+    - title: "HTML"
+      target: "_blank"
+      url: "html"
+    - title: "CSS"
+      target: "_blank"
+      url: "css"
 
 author:
-  author__name: Oinam
-  author__avatar: '/assets/author-oinam.png'
-  author__bio: 'Stories about kids, parenting, and fun things at Oinam.'
+  author__name: Digitopia01
+  author__avatar: "/assets/image/headerlogo.png"
+  author__bio: "digitopia01's engineering blog"
 
 hero:
-  hero__title: <span>fairy tales</span>, & fun # <span></span> to highlight and underline text
+  hero__title: <span>welcome</span>, & greetings # <span></span> to highlight and underline text
   # hero__job: Photos, Videos, and Fairytales
-  hero__description: 'Stories about kids, parenting, and fun things at Oinam.'
+  hero__description: "digitopia01's engineering blog"
   # hero__button__text: Read about my past
   # hero__button__link: '/about/'
-  hero__image: '/assets/0/hero.jpg'
-
+  hero__image: "/assets/image/illustme.png"
 
 # Footer Gallery
 gallery:
   enable: true
   gallery__title: Gallery
-  gallery__columns: '3' # gallery columns
+  gallery__columns: "3" # gallery columns
   gallery__images:
-    - image_url: '/assets/0/gallery/1.jpg'
-    - image_url: '/assets/0/gallery/2.jpg'
-    - image_url: '/assets/0/gallery/3.jpg'
-    - image_url: '/assets/0/gallery/4.jpg'
-    - image_url: '/assets/0/gallery/5.jpg'
-    - image_url: '/assets/0/gallery/6.jpg'
+    - image_url: "/assets/0/gallery/1.jpg"
+    - image_url: "/assets/0/gallery/2.jpg"
+    - image_url: "/assets/0/gallery/3.jpg"
+    - image_url: "/assets/0/gallery/4.jpg"
+    - image_url: "/assets/0/gallery/5.jpg"
+    - image_url: "/assets/0/gallery/6.jpg"
 
 # Social (via https://ionicons.com/v4/)
 social:
-- {icon: 'ion-logo-twitter', name: 'Twitter', link: 'https://twitter.com/oinam/'}
-- {icon: 'ion-logo-instagram', name: 'Instagram', link: 'https://www.instagram.com/oinam/'}
-- {icon: "ion-logo-youtube", name: "Youtube", link: "https://www.youtube.com/@oinam/"}
-- {icon: "ion-logo-github", name: "Github", link: "https://github.com/oinam/"}
-- {icon: "ion-logo-linkedin", name: "LinkedIn", link: "https://www.linkedin.com/company/oinam/"}
+  - {
+      icon: "ion-logo-twitter",
+      name: "Twitter",
+      link: "https://twitter.com/oinam/",
+    }
+  - {
+      icon: "ion-logo-instagram",
+      name: "Instagram",
+      link: "https://www.instagram.com/oinam/",
+    }
+  - {
+      icon: "ion-logo-youtube",
+      name: "Youtube",
+      link: "https://www.youtube.com/@oinam/",
+    }
+  - {
+      icon: "ion-logo-github",
+      name: "Github",
+      link: "https://github.com/oinam/",
+    }
+  - {
+      icon: "ion-logo-linkedin",
+      name: "LinkedIn",
+      link: "https://www.linkedin.com/company/oinam/",
+    }

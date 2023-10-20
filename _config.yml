@@ -1,5 +1,5 @@
 baseurl: ""
-url: ""
+url: "digitopia01.github.io"
 
 # Build
 markdown: kramdown
@@ -26,3 +26,5 @@ include:
 sass:
   sass_dir: _sass
   style: compressed
+
+incremental: true
