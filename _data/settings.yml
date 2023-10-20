@@ -11,6 +11,9 @@ menu__settings:
     - title: "CSS"
       target: ""
       url: "css"
+    - title: "JS"
+      target: ""
+      url: "js"
 
 author:
   author__name: Digitopia01
