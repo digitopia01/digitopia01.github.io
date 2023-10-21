@@ -2,6 +2,7 @@
 *::after,
 *::before {
   box-sizing: border-box;
+  word-break: keep-all;
 }
 
 * {
@@ -87,13 +88,14 @@ blockquote {
   position: relative;
   margin-top: 30px;
   padding: 25px 25px 15px 60px;
-  font-size: 30px;
+  font-size: 20px;
   line-height: 45px;
   font-weight: 700;
   font-style: normal;
   border: 1px solid #eee;
   border-radius: 5px;
   border-left: 3px solid var(--brand-color);
+  background: #fbfbfb;
 
   blockquote p {
     border-radius: 5px;
@@ -217,7 +219,7 @@ hr {
   width: 100%;
   height: 1px;
 
-  margin: var(--space-base) auto;
+  margin: 20px 0;
   background-size: contain;
   background: var(--border-color);
   border: 0 none;
@@ -310,4 +312,14 @@ table td {
 
 .lightense-backdrop {
   background-color: var(--background-color) !important;
+}
+
+// p for post
+.pafterhr {
+  margin-top: 20px;
+}
+
+// h2 for post
+.posth2 {
+  margin-top: 45px;
 }
