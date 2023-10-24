@@ -3,6 +3,7 @@
 *::before {
   box-sizing: border-box;
   word-break: keep-all;
+  letter-spacing: 0px;
 }
 
 * {
@@ -88,14 +89,14 @@ blockquote {
   position: relative;
   margin-top: 30px;
   padding: 25px 25px 15px 60px;
-  font-size: 20px;
-  line-height: 45px;
+  line-height: 35px;
   font-weight: 700;
   font-style: normal;
   border: 1px solid #eee;
   border-radius: 5px;
   border-left: 3px solid var(--brand-color);
   background: #fbfbfb;
+  font-size: 24px;
 
   blockquote p {
     border-radius: 5px;
@@ -119,14 +120,14 @@ blockquote {
   }
 
   @media (max-width: $desktop) {
-    font-size: 24px;
-    line-height: 37px;
+    font-size: 20px;
+    line-height: 30px;
   }
 
   @media (max-width: $mobile) {
     padding: 38px 0 15px 35px;
-    font-size: 21px;
-    line-height: 31px;
+    font-size: 17px;
+    line-height: 25px;
   }
 }
 
@@ -322,4 +323,10 @@ table td {
 // h2 for post
 .posth2 {
   margin-top: 45px;
+}
+
+//post h3 numbering
+.post__htag__numbering {
+  color: var(--brand-color);
+  font-weight: bolder;
 }
