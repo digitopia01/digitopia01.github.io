@@ -1,6 +1,7 @@
 title: "Digitopia01"
 logo: "/assets/image/headerlogo.png"
 description: "digitopia01's engineering blog"
+keywords: html, css, js, jquery, 개발공부, html공부, css공부, css속성, 개발자블로그, 깃허브블로그, 깃허브로개발블로그
 color_scheme: auto # Options: auto (default), light, and dark
 
 menu__settings:

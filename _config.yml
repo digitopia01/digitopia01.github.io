@@ -29,3 +29,5 @@ include:
 sass:
   sass_dir: _sass
   style: compressed
+
+google_analytics: "G-4T1D4KWX7L"
