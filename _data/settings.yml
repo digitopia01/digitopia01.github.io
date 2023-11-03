@@ -15,6 +15,12 @@ menu__settings:
     - title: "JS"
       target: ""
       url: "js"
+    - title: "JQUERY"
+      target: ""
+      url: "jquery"
+    - title: "REACT"
+      target: ""
+      url: "react"
 
 author:
   author__name: Digitopia01
