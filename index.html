@@ -12,8 +12,11 @@ section-featured-posts.html %} {% endif %}
   </div>
   {% endif %}
   <div class="row">
-    {% if site.posts.size > 0 %} {% for post in paginator.posts %} {% include
-    article.html %} {% endfor %} {% endif %}
+    {% if site.posts.size > 0 %} 
+      {% for post in paginator.posts %} 
+        {% include summary.html %} 
+      {% endfor %} 
+    {% endif %}
   </div>
 </div>
 
