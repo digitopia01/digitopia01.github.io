@@ -2,21 +2,21 @@
 layout: default
 ---
 
-{% include hero.html %} {% if page.url == "/" %} {% include
-section-featured-posts.html %} {% endif %}
+{% include hero.html %}
+
+{% assign unique_categories = "html,css,js,jquery,react" | split: "," %}
 
 <div class="container animate">
-  {% if page.url == "/" %}
   <div class="section__head">
     <h3 class="section__title">Stories</h3>
   </div>
-  {% endif %}
   <div class="row">
-    {% if site.posts.size > 0 %} 
-      {% for post in paginator.posts %} 
-        {% include summary.html %} 
-      {% endfor %} 
-    {% endif %}
+    {% for category in unique_categories %}
+      {% assign category_posts = site.posts | where: 'categories', category | first %}
+      {% if category_posts %}
+        {% include summary.html post=category_posts %}
+      {% endif %}
+    {% endfor %}
   </div>
 </div>
 

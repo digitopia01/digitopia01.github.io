@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+{% include hero.html %} {% if page.url == "/" %} {% include
+section-featured-posts.html %} {% endif %}
+
+<div class="container animate">
+  {% if page.url == "/" %}
+  <div class="section__head">
+    <h3 class="section__title">Stories</h3>
+  </div>
+  {% endif %}
+  <div class="row">
+    {% if site.posts.size > 0 %} 
+      {% for post in paginator.posts %} 
+        {% include summary.html %} 
+      {% endfor %} 
+    {% endif %}
+  </div>
+</div>
+
+{% include pagination.html %} {% include section-tags.html %}
