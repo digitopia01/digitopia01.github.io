@@ -3,42 +3,29 @@
     <div class="article__head">
       <a class="article__image" href="/{{ category }}">
         {% if category == "html" %}
-          <img
-            class="lazy"
-            data-src="assets/image/html0.png"
-            alt="HTML" />
+        <img class="lazy" data-src="assets/image/html0.png" alt="HTML" />
         {% elsif category == "css" %}
-          <img
-            class="lazy"
-            data-src="assets/image/css0.png"
-            alt="CSS" />
+        <img class="lazy" data-src="assets/image/css0.png" alt="CSS" />
         {% elsif category == "js" %}
-          <img
-            class="lazy"
-            data-src="assets/image/javascript0.png"
-            alt="JavaScript" />
-        {% elsif category == "jquery" %}
-          <img
-            class="lazy"
-            data-src="assets/image/jquery0.png"
-            alt="jQuery" />
+        <img
+          class="lazy"
+          data-src="assets/image/javascript0.png"
+          alt="JavaScript"
+        />
         {% elsif category == "react" %}
-          <img
-            class="lazy"
-            data-src="assets/image/react0.png"
-            alt="REACT.js" />
+        <img class="lazy" data-src="assets/image/react0.png" alt="REACT.js" />
+        {% elsif category == "bakjun" %}
+        <img class="lazy" data-src="assets/image/bakjunmain.png" alt="bakjun" />
         {% else %}
-          <img
-            class="lazy"
-            data-src="assets/image/1.jpg"
-            alt="{{post.title}}" />
+        <img class="lazy" data-src="assets/image/1.jpg" alt="{{post.title}}" />
         {% endif %}
       </a>
     </div>
     <div class="article__content">
-
       <h2 class="article__title">
-        <a style="display:block;text-align:center;" href="/{{ category }}">🎫- {{ category }} 스터디 -🎟️<br>🎫 바로가기 🎟️</a>
+        <a style="display: block; text-align: center" href="/{{ category }}"
+          >🎫- {{ category }} 스터디 -🎟️<br />🎫 바로가기 🎟️</a
+        >
       </h2>
 
       <p class="article__excerpt">
@@ -46,11 +33,15 @@
       </p>
 
       {% if post.tags.size >= 1 %}
-        <div class="article__tags">
-          {% for tag in post.tags %}
-            <a href="{{ site.baseurl }}/tags/?tag={{ tag | downcase | url_encode }}" class="article__tag">{{ tag }}</a>
-          {% endfor %}
-        </div>
+      <div class="article__tags">
+        {% for tag in post.tags %}
+        <a
+          href="{{ site.baseurl }}/tags/?tag={{ tag | downcase | url_encode }}"
+          class="article__tag"
+          >{{ tag }}</a
+        >
+        {% endfor %}
+      </div>
       {% endif %}
     </div>
   </div>
