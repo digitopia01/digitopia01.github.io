@@ -1,5 +1,5 @@
 baseurl: ""
-url: "digitopia01.github.io"
+url: "https://digitopia01.github.io"
 
 # Build
 markdown: kramdown
