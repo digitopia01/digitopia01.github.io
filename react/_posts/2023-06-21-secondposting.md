@@ -4,6 +4,7 @@ title: 정글 파스타집에 다녀왔어요!
 image: "/assets/image/visual.jpg"
 category: jquery
 date: 2023.11.11
+thumnail: "/assets/image/html1main.png"
 ---
 
 ## 정글 파스타집에 다녀왔어요.
