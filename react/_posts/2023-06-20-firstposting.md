@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 광명 매화 쌈밥집에 다녀왔어요!
-image: "/assets/image/react0.png"
+image: "/assets/image/rocket.png"
 category: jquery
 keywords: 광명 매화 쌈밤집에 다녀왔어요!
 excerpt: 안녕하세요 디지토피아01 입니다! 오늘은 광명에 위치한 광명 매화쌈밥집에 다녀왔어요~
@@ -16,4 +16,4 @@ description: 오늘은 광명 매화쌈밥집에 대해서 리뷰해보도록 �
 저는 무엇보다도 연근무침이 고소하고 아삭하니 마요네즈 소스가 곁들여졌는데 너무 맛있더라구요.
 제가 가장 좋아하는 고추 무침도 있었구요 ㅎㅎ
 
-<img src="/assets/image/rocket.png">
+<img src="/assets/image/thumb.png">
