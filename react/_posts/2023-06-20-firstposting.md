@@ -16,4 +16,4 @@ description: 오늘은 광명 매화쌈밥집에 대해서 리뷰해보도록 �
 저는 무엇보다도 연근무침이 고소하고 아삭하니 마요네즈 소스가 곁들여졌는데 너무 맛있더라구요.
 제가 가장 좋아하는 고추 무침도 있었구요 ㅎㅎ
 
-<img src="/assets/image/react0.png">
+<img src="/assets/image/rocket.png">
