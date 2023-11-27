@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 광명 매화 쌈밥집에 다녀왔어요!
-image: "/assets/image/rocket.png"
+image: "/assets/image/visual.jpg"
 category: jquery
 keywords: 광명 매화 쌈밤집에 다녀왔어요!
 excerpt: 안녕하세요 디지토피아01 입니다! 오늘은 광명에 위치한 광명 매화쌈밥집에 다녀왔어요~
